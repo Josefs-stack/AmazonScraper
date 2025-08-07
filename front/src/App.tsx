@@ -12,10 +12,13 @@ const Container = styled.main`
 
 const ContainerInternal = styled.div`
   width: 95vw;
-  height: 90vh;
+  height: 95vh;
   display: flex;
+  justify-content: center;  
+  align-items: center;
   flex-direction: column;
   background-color: #DFE1F5;
+  overflow: hidden;
 `;
 
 function App() {

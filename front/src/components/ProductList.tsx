@@ -9,16 +9,17 @@ type Product = {
 };
 
 const Contain = styled.div`
-  width: 100%;
+  width: 90vw;
   height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 `;
 
 
 const ContainerBusca = styled.div`
   width: 100%;
-  padding: 1rem;
   background-color: #DFE1F5;
   display: flex;
   flex-direction: column;
